@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Your Property Fast | LayoutStudio Real Estate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .benefits {
+            margin: 20px 0;
+        }
+        .benefits li {
+            margin: 10px 0;
+        }
+        .form-container {
+            margin-top: 30px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 15px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+        .contact-info a {
+            color: #28a745;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sell Your Property Fast with LayoutStudio Real Estate!</h1>
+        <p>Are you looking to sell your property quickly and without the hassle? LayoutStudio Real Estate specializes in real estate wholesaling and can offer you a fair price for your home. No repairs, no agents, no fees.</p>
+        <div class="benefits">
+            <h2>Why Sell to LayoutStudio Real Estate?</h2>
+            <ul>
+                <li>No repairs needed</li>
+                <li>Fast and fair offers</li>
+                <li>Close in as little as 7 days</li>
+                <li>Avoid realtor fees</li>
+                <li>Confidential and professional process</li>
+            </ul>
+        </div>
+        <div class="form-container">
+            <h2>Get Your Offer Now</h2>
+            <form action="mailto:thelayoutstudio@icloud.com" method="POST" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                <textarea name="propertyDetails" rows="4" placeholder="Property Address and Details" required></textarea>
+                <button type="submit">Get Offer</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:thelayoutstudio@icloud.com">thelayoutstudio@icloud.com</a></p>
+            <p>Contact Number: <a href="tel:816-810-5026">816-810-5026</a></p>
+        </div>
+    </div>
+</body>
+</html>
